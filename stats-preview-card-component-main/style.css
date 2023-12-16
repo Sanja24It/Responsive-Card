@@ -2,11 +2,15 @@
 
 body{
     background-color: rgb(9, 11, 26);
-    margin: 150px auto;
+  
+
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
 
 .container{
-    margin: auto;
+
    background-color: rgb(27, 25, 56);
     width: 960px;
     display: grid;
@@ -87,7 +91,7 @@ body{
 
 
 @media (min-width: 320px) and (max-width: 768px){
-
+       
     .container{
         margin: auto ;
         width: 80%;
@@ -98,11 +102,13 @@ body{
     .box-one{
         flex-basis: 45%;
         text-align: center;
+        border-radius: 15px 0 15px 0;
     }
 
     .box-two{
         flex-basis: 45%;
-        border-radius: 15px 15px 0 0; 
+        border-radius: 15px  15px 0 0;
+        
         
     }
 
@@ -133,7 +139,7 @@ body{
 
 
 @media (min-width: 769px) and (max-width: 1024px){
-
+   
     .container{
         margin: auto ;
         width: 80%;
@@ -144,6 +150,7 @@ body{
     .box-one{
         flex-basis: 45%;
         text-align: center;
+        border-radius: 15px 0 15px 0;
     }
 
     .box-two{
@@ -155,7 +162,7 @@ body{
     .box-two img{
        
         min-width: 100%;
-        border-radius: 15px  15px 0 0;
+        border-radius: 15px 15px 0 0;
         
     }
 
@@ -176,6 +183,9 @@ body{
     
 
 }
+
+
+
 
 
 
